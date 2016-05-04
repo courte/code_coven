@@ -100,6 +100,7 @@ header {
 #mc_embed_signup .label {
   width: 20%;
   padding-right: 2%;
+  margin-bottom: 4%;
 }
 
 #mc_embed_signup .field {
@@ -119,7 +120,6 @@ header {
   font-size: 1em;
   border: solid #6a1e71;
   -webkit-border-radius: 2% 2%;
-
 }
 
 #mc_embed_signup .clear {
@@ -127,7 +127,11 @@ header {
   margin: 3% auto;
 }
 
-#mc_embed_signup .button {
+.mce-responses {
+  width: 100%;
+}
+
+#mc-embedded-subscribe.button {
   width: 100%;
   min-height: 50px;
   font-family: 'Open Sans', sans-serif;
@@ -137,7 +141,7 @@ header {
   background-color: #efb60c;
 }
 
-@media (max-width: 690px) {
+@media (max-width: 700px) {
   #container {
     -webkit-border-top-left-radius: 0px 0px;
     -moz-border-top-left-radius: 0px 0px;
