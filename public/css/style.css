@@ -127,11 +127,7 @@ header {
   margin: 3% auto;
 }
 
-.mce-responses {
-  width: 100%;
-}
-
-#mc-embedded-subscribe.button {
+#mc-embedded-subscribe .button input[type="submit"] {
   width: 100%;
   min-height: 50px;
   font-family: 'Open Sans', sans-serif;
