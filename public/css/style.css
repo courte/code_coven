@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,400italic,600,300italic);
 
+@font-face {
+  font-family: 'BebasNeueLight';
+  src: url('../fonts/BebasNeueLight.otf') format('opentype');
+}
+
 /*  COLORS
     purple: #6a1e71
     bold yellow: #efb60c
@@ -34,10 +39,9 @@ header {
 
 #tagline {
   color: #f7f6f2;
-  font-family: 'Open Sans', sans-serif;
-  font-style: italic;
+  font-family: 'BebasNeueLight', 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 2.1em;
   padding-top: 1%;
 }
 
